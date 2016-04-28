@@ -43,9 +43,7 @@ p  {
   <p><i>An astronaut's guide to finding their sandwiches.</i></p>
   <p><i>Find me in app/views/welcome/index.html.erb</i></p>
 
-<div class="actions">
-<input type="submit" value="articles" name="commit"></input></div>
-</form>
+<%= button_to "articles", articles_path, :method => :get %>
 
 <!-- <img alt="Icon" src="/images/image.jpg" /> --> <!-- ovo ne valja -->
 
