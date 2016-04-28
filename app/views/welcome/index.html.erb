@@ -9,6 +9,7 @@ h1 {
     border: 2px solid black;
     text-align: center;
 
+
 }
 p  {
     color: #ffffff;
@@ -18,18 +19,24 @@ p  {
 
  }
 
+.center {
+    display:block;
+    width:800px;
+    margin: 0 auto;
+}
+
 </style>
  <head>
  
- 	<h1 style="color:#000000;">Welcome home, astronaut.</h1>
- 	<h6>Find me in app/views/welcome/index.html.erb</h6>
+    <%= image_tag("galaxy1.jpg", :alt => "galaxy", class: 'center')%> <!-- ovo valja --> 
+ 	<h1 style="color:#ffffff;">Welcome home, astronaut.</h1>
+ 	
  </head>
 
   <p><i>An astronaut's guide to finding their sandwiches.</i></p>
+  <p><i>Find me in app/views/welcome/index.html.erb</i></p>
 
 <!-- <img alt="Icon" src="/images/image.jpg" /> --> <!-- ovo ne valja -->
-
-<%= image_tag("galaxy.jpg", :alt => "image") %> <!-- ovo valja --> 
 
  
 
