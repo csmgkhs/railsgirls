@@ -6,7 +6,7 @@ h1 {
     color: #000000;
     font-family: helvetica;
     font-size: 300%;
-    border: 1px solid black;
+    border: 2px solid black;
     text-align: center;
 
 }
@@ -24,9 +24,11 @@ p  {
  	<h1 style="color:#000000;">Welcome index</h1>
  </head>
 
-<img alt="Icon" src="/images/image.jpg" />
+  <p><i>Find me in app/views/welcome/index.html.erb</i></p>
 
-<%= image_tag("image.jpg", :alt => "image") %>
+<!-- <img alt="Icon" src="/images/image.jpg" /> --> <!-- ovo ne valja -->
+
+<%= image_tag("image.jpg", :alt => "image") %> <!-- ovo valja --> 
 
  <p><i>Find me in app/views/welcome/index.html.erb</i></p>
 
